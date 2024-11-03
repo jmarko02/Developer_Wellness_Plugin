@@ -49,5 +49,5 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")  // For handling async timer operations
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-swing:1.7.3") // For UI updates
-    testImplementation("org.junit.jupiter:junit-jupiter:5.9.2")            // For testing (optional)
+    testImplementation("org.junit.jupiter:junit-jupiter:5.9.2")
 }

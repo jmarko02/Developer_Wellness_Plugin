@@ -47,5 +47,29 @@
         <notificationGroup
                 id="Developer Wellness"
                 displayType="BALLOON"/>
+
     </extensions>
+    <actions>
+        <group id="DeveloperWellness.ActionGroup"
+               text="Developer Wellness"
+               description="Developer Wellness actions">
+
+            <!-- This adds our actions to the Tools menu -->
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+
+            <!-- Start Timer action -->
+            <action id="DeveloperWellness.StartTimer"
+                    class="com.example.developerwellness.actions.StartTimerAction"
+                    text="Start Wellness Timer"
+                    description="Start the wellness timer">
+            </action>
+
+            <!-- Stop Timer action -->
+            <action id="DeveloperWellness.StopTimer"
+                    class="com.example.developerwellness.actions.StopTimerAction"
+                    text="Stop Wellness Timer"
+                    description="Stop the wellness timer">
+            </action>
+        </group>
+    </actions>
 </idea-plugin>

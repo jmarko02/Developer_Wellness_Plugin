@@ -11,13 +11,6 @@ Stay healthy while coding!
 - Customizable notifications
 - Sound alerts
 
-## Installation
-
-1. Open IntelliJ IDEA
-2. Go to Settings/Preferences → Plugins
-3. Click "Install plugin from disk"
-4. Select the plugin file
-5. Restart IDE
 
 ## Usage
 
@@ -29,6 +22,5 @@ Stay healthy while coding!
 
 1. Clone the repository
 2. Open in IntelliJ IDEA
-3. Build using Gradle:
-```bash
-./gradlew build
+3. Choose build in Gradle Tools Menu on the right side
+4. Choose runIde Gradle task in Gradle Tools Menu on the right side
